@@ -38,11 +38,7 @@ public class GameManager {
 
     public boolean CheckIfCorrectAnswer(String answer)
     {
-        if (answer.equalsIgnoreCase(correctAnswer))
-        {
-            return true;
-        }
-        return false;
+        return answer.equalsIgnoreCase(correctAnswer);
     }
     public int GetCurrentQuizQuestionNumber()
     {
